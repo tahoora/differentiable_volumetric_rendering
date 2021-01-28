@@ -61,10 +61,10 @@ class Trainer(BaseTrainer):
                  lambda_sparse_depth=0., generator=None, patch_size=1,
                  reduction_method='sum', sample_continuous=False,
                  overwrite_visualization=True,
-                 depth_from_visual_hull=False, depth_range=[0, 2.4],
+                 depth_from_visual_hull=True, depth_range=[0, 2.4],
                  depth_loss_on_world_points=False,
-                 occupancy_random_normal=False,
-                 use_cube_intersection=False, always_freespace=True,
+                 occupancy_random_normal=True,
+                 use_cube_intersection=True, always_freespace=True,
                  multi_gpu=False, **kwargs):
         self.model = model
         if multi_gpu:
