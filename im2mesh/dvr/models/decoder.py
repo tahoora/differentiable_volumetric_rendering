@@ -24,7 +24,7 @@ class Decoder(nn.Module):
     '''
 
     def __init__(self, dim=3, c_dim=128,
-                 hidden_size=512, leaky= True, n_blocks=5, out_dim=4):
+                 hidden_size=512, leaky= True, n_blocks=6, out_dim=4):
         super().__init__()
         self.c_dim = c_dim
         self.n_blocks = n_blocks
