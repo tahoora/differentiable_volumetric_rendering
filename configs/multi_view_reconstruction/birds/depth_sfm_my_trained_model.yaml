@@ -1,0 +1,6 @@
+
+inherit_from: configs/multi_view_reconstruction/birds/ours_depth_sfm.yaml
+generation:
+  generation_dir: generation_pretrained
+test:
+  model_file: https://s16.picofile.com/d/8423170926/556b12bf-8a83-4251-9bea-d140c1978b9a/model_best.pt
