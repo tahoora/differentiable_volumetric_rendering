@@ -3,11 +3,5 @@ inherit_from: configs/multi_view_reconstruction/birds/ours_depth_mvs.yaml
 generation:
   generation_dir: generation_pretrained
 test:
-  model_file: https://s3.eu-central-1.amazonaws.com/avg-projects/differentiable_volumetric_rendering/models/multi_view_reconstruction/birds/ours_depth_mvs-37d3d8ff.pt
-
-
-  #file uploaded at gofile
-  #model_file: https://srv-store1.gofile.io/download/Mtaoqi/model_best.pt
-
   #file uploaded at pico
-  #model_file: https://s16.picofile.com/d/8423167926/c0f2be29-6c6c-411d-8704-91adfc402bb6/model_best.pt
+  model_file: https://s16.picofile.com/d/8423167926/c0f2be29-6c6c-411d-8704-91adfc402bb6/model_best.pt
